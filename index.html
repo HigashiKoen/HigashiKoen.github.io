@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higashi Koen Timepieces</title>
+
+    <link rel="icon" href="images/logo.png" sizes="32x32">
+    <link rel="icon" href="images/logo.png" sizes="16x16">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="templatemo-maison-style.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+     <!-- Your custom fixes -->
+    <style>
+        .collection-item {
+            width: auto;
+        }
+
+        .swiper-slide {
+            transition: transform 0.3s ease;
+        }
+
+        .swiper-slide:hover {
+            transform: scale(1.03);
+        }
+
+        .nav-main {
+            display: flex;
+            align-items: center;
+            gap: 30px; /* spacing between items */
+        }
+
+        .nav-main a {
+            white-space: nowrap;
+        }
+
+        .nav-flag img {
+            width: 50px;
+            height: auto;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<body>
+    <!-- Header -->
+    <header class="site-header" id="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="#" class="logo">東 Higashi <span>Koen 公園</span></a>
+                
+                <nav class="nav-main">
+                    <a href="#story">Who We Are</a>
+                    <a href="#craftsmanship">Our Locations</a>
+                    <a href="#contact">Visit Us</a>
+
+                    <!-- Flag icon -->
+                    <a href="index_jp.html" class="nav-flag">
+                        <img src="images/jap-flg.png" alt="Japanese Language" />
+                    </a>
+
+                    <a href="#contact" class="nav-cta">Book Appointment</a>
+                </nav>
+                
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Mobile Navigation -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <nav class="mobile-nav" id="mobileNav">
+        <button class="mobile-nav-close" id="mobileNavClose">×</button>
+        <ul class="mobile-nav-links">
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#craftsmanship">Craftsmanship</a></li>
+            <li><a href="#contact">Visit Us</a></li>
+        </ul>
+        <div class="mobile-nav-cta">
+            <a href="#contact" class="btn-primary">Book Appointment</a>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <p>
+            <h1 class="heading-display hero-title">
+                Where Tradition<br>Meets <em>Art</em>
+            </h1>
+            <p class="text-body hero-description">
+                Every watch in our collection carries a story—carefully restored, expertly preserved, and ready for its next chapter. We bring exceptional timepieces back to life, offering you craftsmanship, character, and history to your collection.
+            </p>
+            <div class="hero-actions">
+                <a href="#story" class="btn-text">Our Services</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div data-title="Serpentine Collection">
+                <img src="images/about-hero.png" 
+                     alt="Serpentine gold jewelry collection"
+                     style="margin-top: 1px;">
+            </div>
+        </div>
+    </section>
+    
+  
+    
+    <!-- Our Story -->
+    <section class="story" id="story">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-content">
+                    <p class="text-label story-label">Our Services</p>
+                    <h2 class="heading-display story-title">
+                        The New Silkroad
+                    </h2>
+                    <p class="text-body story-text">
+                        Japan's secondary market holds some of the world's most immaculate timepieces — kept in conditions European 
+                        collectors rarely encounter, often unworn, and frequently unobtainable through conventional channels. 
+                        At Higashi Koen, our relationships open the door to this market. We know it deeply and have built our business around bringing it directly to you.
+
+
+                    </p>
+                    <p class="text-body story-text">
+                        Our export channel was designed with one goal: to transfer these watches from Japan to Europe smoothly and without compromise. 
+                        For collectors who know what they want, we handle everything else.
+                    </p>
+                    <div class="story-signature">
+                 <!--   <p class="signature-name">Marco Malchiodi</p> 
+                        <p class="signature-title">Vice President</p> -->    
+                    </div>
+                </div>
+                <div class="story-images">
+                    <div class="story-image">
+                        <img src="images/yokyo.jpg" 
+                             alt="Tokyo">
+                    </div>
+                    <div class="story-image">
+                        <img src="images/seiko.png" 
+                             alt="Jewelry crafting detail">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Location -->
+    <section class="craftsmanship" id="craftsmanship">
+        <div class="container">
+            <div class="craft-grid">
+                <div class="craft-content">
+                    <p class="text-label">Where to Find Us</p>
+                    <h2 class="heading-display craft-title">
+                        Our Locations
+                    </h2>
+                    <p class="text-body craft-text">
+                        Our extensive network boasts of hubs located in Switzerland, Italy, Hungary and Japan. 
+                        Our latest office has been opened in Tokyo, Japan. You may find us at the following address:
+                    </p>
+                    <ul class="craft-list text-body">
+                        <li>Nishi-Shinjuku Takagi Building</li>
+                        <li>1-20-3 Nishi-Shinjuku</li>
+                        <li>Shinjuku-ku</li>
+                        <li>Tokyo, 160-0023</li>
+                    </ul>
+                    <a href="#contact" class="btn-primary">Request a Meeting</a>
+                </div>
+                <div class="craft-image-wrapper">
+                    <div class="craft-image">
+                        <img src="images/map.png" 
+                             alt="Jewelry craftsmanship workshop">
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-content">
+                    <p class="text-label">Become our Partner</p>
+                    <h2 class="heading-display contact-title">
+         
+                    </h2>
+                    <p class="text-body contact-text">
+                        We invite you to contact us for a personal 
+                        consultation. Discover our collections in an intimate 
+                        setting and work with us to build something 
+                        truly unique.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <p class="contact-item-label">Address</p>
+                            <p class="contact-item-value">
+                                Nishi-Shinjuku Takagi Building, 1-20-3 Nishi-Shinjuku<br>
+                                Shinjuku-ku, Tokyo, 160-0023
+                            </p>
+                        </div>
+
+                        <div class="contact-item">
+                            <p class="contact-item-label">Contact</p>
+                            <p class="contact-item-value">
+                               <!--<a href="tel:+12125551234">+NUM NUM</a><br>--> 
+                                <a href="mailto:hello@maisondoree.com">info@higashikoen.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <h3 class="form-title">Request an Appointment</h3>
+                    <form id="appointmentForm">
+                        <div class="form-group">
+                            <label class="form-label" for="name">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message">Tell Us About Your Purpose</label>
+                            <textarea id="message" name="message" class="form-textarea" 
+                                placeholder="Interested in a specific piece?"></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">Request Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Brand & Contact -->
+                <div class="footer-brand">
+                    <p class="footer-logo">東 Higashi<span>Koen 公園</span></p>
+                    <p class="footer-tagline">
+                        Timpieces of exceptional quality and timeless elegance.
+                    </p>
+                    <div class="footer-contact-info">
+                        <p>Nishi-Shinjuku Takagi Building, 1-20-3 Nishi-Shinjuku</p>
+                        <p>Shinjuku-ku, Tokyo, 160-0023</p>
+                        <!--<p><a href="tel:+12125551234">+NUM NUM</a></p>-->
+                        <p><a href="mailto:hello@maisondoree.com">info@higashikoen.com</a></p>
+                    </div>
+                </div>
+                
+                <div class="footer-column"></div>
+                <div class="footer-column"></div>
+                <!-- Column 3: Company -->
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#story">Our Services</a></li>
+                        <li><a href="#craftsmanship">Our Locations</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 Higashi Koen KK.</p>
+                <div class="footer-social">
+                    <!--<a href="#">Instagram</a>-->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="templatemo-maison-doree.js"></script>
+
+    <script>
+const swiper = new Swiper('.collections-slider', {
+    slidesPerView: 1.2,
+    spaceBetween: 20,
+    loop: true,
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    breakpoints: {
+        768: { slidesPerView: 2.5 },
+        1024: { slidesPerView: 3.5 }
+    }
+});
+</script>
+
+</body>
+</html>
